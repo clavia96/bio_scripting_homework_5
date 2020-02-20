@@ -68,18 +68,14 @@ print("a * b =", product, ", which is a", type(product))
 quotient = a / b
 print("a / b =",quotient, ", which is a", type(quotient))
 
-#floor_quotient = a // b
-#print("a // b =", floor_quotient, ", which is a", type(floor_quotient))
+floor_quotient = a // b
+print("a // b =",floor_quotient, ", which is a", type(floor_quotient))
 
-#remainder = a % b
-#print("a % b =," remainder ", which is a," type(remainder))
+remainder = a % b
+print("a % b =",remainder, ", which is a", type(remainder))
 
-#power = a ** b
-#print("a ** b =",
-        #power,
-        #", which is a",
-        #type(power),
-        #)
+power = a ** b
+print("a ** b =",power, ", which is a", type(power))
 
 #a += 1
 #print("Incrementing \"a\" by one results in", a, "which is a", type(a))
