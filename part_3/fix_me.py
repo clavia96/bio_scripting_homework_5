@@ -2,13 +2,13 @@
 
 # Reading data from the user's input
 
-value = input("Enter integer: ")
-a = int(value)
+a_value = input("Enter integer: ")
+a = int(a_value)
 
 print("You entered",a, "which is a", type(a))
 
-valuee = input("Enter integer: ")
-b = int(valuee)
+b_value = input("Enter integer: ")
+b = int(b_value)
 
 print("You entered",b, "which is a", type(b))
 
@@ -33,12 +33,8 @@ print("a * b =",product, ", which is a", type(product))
 quotient = a / b
 print("a / b =",quotient, ", which is a", type(quotient))
 
-#floor_quotient = a // b
-#print("a // b =",
-        #floor_quotient,
-        #", which is a",
-        #type(floor_quotient),
-        #)
+floor_quotient = a // b
+print("a // b =",floor_quotient, ", which is a", type(floor_quotient))
 
 #remainder = a % b
 #print("a % b =", remainder, ", which is a", type(remainder))
